@@ -1,0 +1,45 @@
+// Use the gear_dropdown.png screenshot as a style guide
+#gear-dropdown {
+    position: absolute;
+    top: 60px;
+    right: 190px;
+    z-index: 1;
+    box-shadow: -1px 4px 6px 1px rgba(0,0,0,0.09);
+    color: gray;
+    background-color: white;
+  
+}
+// #gear-dropdown-btn {
+//     display: flex;
+// }
+
+
+ul.gear-dropdown {
+        display: flex;
+        flex-direction: column;
+    }
+// ul#gear-dropdown.gear-dropdown li ul span.editions {
+//         justify-content: space-evenly;
+//         // width: 10px;
+//         // height: 10px;
+//     }
+
+ul.editions > li , ul.help li, ul.editions > span, ul.help > span  {
+    // #li ul span.dropdown-subtitle
+    width: 200px; 
+    padding: 10px;
+} 
+
+.gear-dropdown span {
+    width: 200px; 
+    padding: 10px;
+}
+
+// ul.editions > span {
+//     width: 200px; 
+//     padding: 10px;
+// }
+
+ul.hidden {
+    display: none;
+}

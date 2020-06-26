@@ -1,0 +1,118 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.left-nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+.right-nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-nav > ul > li {
+    text-transform: uppercase;
+    margin: 20px 5px;
+    margin-bottom: 15px;
+    padding: 7px 1px;
+    padding-right: 15px;
+
+    // margin-left: 20px;
+	// cursor: pointer;
+	// text-transform: uppercase;
+	// font-family: $sans-serif;
+	// font-weight: bold;
+	// font-size: 11px;
+	// padding: 7px 9px;
+	// transition: background-color 0.3s;
+}
+
+
+
+.left-nav i {
+    margin: 2px 15px;
+}
+
+
+.right-nav > ul > li {
+    background-color: f0f8fc ;
+    text-transform: uppercase;
+    margin: 20px 2px;
+}
+// .right-nav > ul {
+//     display: flex;
+// }
+.right-nav > ul > i {
+    // background-color: #f7f7f5;
+    margin: 20px 2px;
+    padding: 6px;
+}
+
+.right-nav > ul > li:first-of-type {
+    background-color: #6288a5;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.right-nav > ul > li:nth-of-type(2) {
+    background-color: #6288a5;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: arial;
+    font-weight: bold;
+    color: white; 
+}
+
+.left-nav > ul > li:last-of-type{
+    border-radius: 4px;
+    // background-color: #f7f7f5;
+}
+.right-nav > ul > li:first-of-type:hover {
+    background-color: #326891;
+}
+
+.left-nav > ul > li:first-of-type{
+    border-radius: 4px;
+}
+.left-nav > ul > li:last-of-type:hover{
+    background-color: #f7f7f5;
+}
+.left-nav > ul > li:first-of-type:hover {
+    background-color: #f7f7f5;
+}
+.right-nav > ul > i:hover{
+    background-color: #f7f7f5; 
+}
+
+.right-nav > ul > li:nth-of-type(2):hover {
+    background-color: #326891;
+}
+.right-nav li#gear-dropdown-btn {
+    padding-top: 10px;
+    margin-left: 8px;
+    
+}
+.right-nav li#gear-dropdown-btn:hover {
+    background-color: #f7f7f5;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+ 
+
+}
+
+
+.right-nav i {
+    // margin: 10px 1px;
+}
