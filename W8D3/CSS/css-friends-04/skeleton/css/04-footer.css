@@ -1,0 +1,26 @@
+/* PHASE 4: Footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #fff;
+    width: 900px;
+    border: 1px solid #ccc;
+    border-top: 0;
+
+}
+
+.footer-sidebar ul {
+    justify-content: space-evenly;
+    right: 10px;
+    display: inline;
+    background-color: yellow;
+
+}
+
+.footer-main{
+    justify-content: space-evenly;
+}
+
+
+/* https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/ */

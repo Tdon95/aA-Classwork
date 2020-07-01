@@ -1,0 +1,25 @@
+/* PHASE 3: Layout */
+.content {
+    min-height: 200px;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    background-color: purple;
+}
+
+.content-sidebar {
+
+    margin: auto;
+    padding: auto;
+    min-height: 200px;
+    background-color: blue;
+    border-bottom: 1px;
+    justify-content: space-between;
+}
+
+.content-main {
+    margin: auto;
+    padding: auto;
+    min-height: 200px;
+    background-color: green;
+}
