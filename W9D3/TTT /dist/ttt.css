@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    list-style: none;
+    margin: auto;
+}
+
+li:hover {
+    background: yellow;
+}
+
+li {
+    cursor: pointer;
+    background: gray;
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    display: flex;
+}
+
+.x, .o {
+    background: white;
+    cursor: default;
+    justify-content: center;
+}
+
+.x:hover, .o:hover {
+    background:white;
+}
+
+.x:after{
+    content: "x";
+    margin: auto;
+    justify-content: center;
+    font-size: 100px;
+}
+.o:after{
+    content: "o";
+    margin: auto;
+    justify-content: center;
+    font-size: 100px;
+}
+ .ttt.winnerx:after{
+     content: "Winner X!";
+     font-size: 100px;
+}
+ .ttt.winnero:after{
+     content: "Winner O!";
+     font-size: 100px;
+}
+
